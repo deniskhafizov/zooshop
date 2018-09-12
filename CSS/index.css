@@ -1,0 +1,38 @@
+h2 {
+    text-align: center;
+}
+
+.akcii {
+    background-color: rgb(225, 231, 213);
+    height: 190px;
+    padding: 20px;
+    margin: 20px;
+    transition: 600ms;
+}
+
+div.content div.akcii:hover {
+    background-color: rgb(213, 219, 201);
+    transition: 300ms;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.akcii img {
+    margin: 0px 20px 0px 0px;
+    width: 150px;
+}
+
+div.page-content  div.akcii  div:nth-child(1) {
+    float: left;
+    width: 150px;
+}
+
+div.page-content  div.akcii  div:nth-child(2) {
+    float: left;
+
+}
+
+
+

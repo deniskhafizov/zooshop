@@ -1,28 +1,44 @@
-table tr.header-color-darkred {
+body {
+    background-color: #d7d7d7;
+    font-size: 12pt;
+    font-family: Tahoma, serif;
+    color: #000618;
+}
+
+div.content {
+    background-color: rgb(248, 254, 236);
+    width: 900px;
+    margin: 0 auto;
+    min-height: 900px;
+    box-shadow: 0 0 15px #858585;
+}
+
+div.header {
     background-color: #fef6d7;
 }
-table tr td.column-left-color-darkred {
-    background-color: #e2001a ;
+
+div.header img {
+    width: 500px;
+    margin: 0px 200px 0px 200px;
 }
-table tr td.basic-color-gray {
-    background-color: #f7eeef;
+
+div.menu {
+    background-color: #eae1c6;
+    padding: 10px;
+    border-bottom: solid 2px #9c9083;
+    border-top: solid 2px #9c9083;
+    text-align: center;
 }
-table tr.footer-color-darkred {
+
+div.footer {
     background-color: #fef6d7;
+    height: 135px;
+    text-align: center;
+    padding-top: 5px;
 }
-table tr.footer-color-darkred td p:nth-child(1) {
-    color: #e2001a;
-    font-size: 50px;
-}
-table tr.footer-color-darkred td p:nth-child(2),
-table tr.footer-color-darkred td p:nth-child(3) {
-    color: #e2001a;
-    font-size: 22px;
-}
-table tr.header-color-darkred td h1 {
-    color: #e2001a;
-    font-size: 50px;
-}
-.Hfontcolor {
-    color: #e2001a;
+
+div.footer p:nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+
 }
