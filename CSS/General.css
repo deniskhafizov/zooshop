@@ -3,6 +3,11 @@ body {
     font-size: 12pt;
     font-family: Tahoma, serif;
     color: #000618;
+    text-shadow: 0 0 8px #d9d9d9;
+}
+
+div.akcii img {
+    box-shadow: 0 0 8px #858585;
 }
 
 div.content {
@@ -25,20 +30,24 @@ div.header img {
 div.menu {
     background-color: #eae1c6;
     padding: 10px;
-    border-bottom: solid 2px #9c9083;
-    border-top: solid 2px #9c9083;
+    border-bottom: solid 2px #d0c1af;
+    border-top: solid 2px #cfbfae;
     text-align: center;
+    box-shadow: 0 0 8px #939393;
 }
 
 div.footer {
-    background-color: #fef6d7;
+    background-color: #eae1c6;
     height: 135px;
     text-align: center;
     padding-top: 5px;
+    border-top: solid 2px #d0c0af;
+    box-shadow: 0 0 8px #939393;
 }
 
 div.footer p:nth-child(1) {
     font-size: 20px;
     font-weight: bold;
+
 
 }

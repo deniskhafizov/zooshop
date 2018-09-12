@@ -8,6 +8,7 @@ h2 {
     padding: 20px;
     margin: 20px;
     transition: 600ms;
+    box-shadow: 0 0 8px #939393;
 }
 
 div.content div.akcii:hover {
@@ -31,6 +32,7 @@ div.page-content  div.akcii  div:nth-child(1) {
 
 div.page-content  div.akcii  div:nth-child(2) {
     float: left;
+
 
 }
 
