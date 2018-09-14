@@ -2,10 +2,12 @@ div.table {
     width: 860px;
     margin: 0 auto;
     box-shadow: 0 0 8px #939393;
+
+
 }
 
 div.table tr:nth-child(odd)  {
-    background-color: rgb(227, 222, 208);
+    background-color: #f1e8cd;
 }
 
 h2 {
@@ -13,7 +15,7 @@ h2 {
 }
 
 .akcii {
-    background-color: rgb(227, 222, 208);
+    background-color: #f1e8cd;
     height: 190px;
     padding: 20px;
     margin: 20px;
@@ -22,7 +24,7 @@ h2 {
 }
 
 div.content div.akcii:hover {
-    background-color: rgb(212, 207, 194);
+    background-color: #e7dfc4;
     transition: 300ms;
 }
 
