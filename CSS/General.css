@@ -1,4 +1,5 @@
 body {
+    margin-top: 0px;
     background-color: #d7d7d7;
     font-size: 12pt;
     font-family: Tahoma, serif;
@@ -20,11 +21,15 @@ div.content {
 
 div.header {
     background-color: #fef6d7;
+    background-image: url("../images/cat.jpg");
+    background-attachment: fixed;
+    background-position: center;
 }
 
 div.header img {
-    width: 500px;
-    margin: 0px 200px 0px 200px;
+    width: 350px;
+    padding: 30px;
+    margin: 0px 275px 0px 275px;
 }
 
 div.menu {
