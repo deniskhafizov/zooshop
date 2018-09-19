@@ -4,55 +4,45 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/feedback.css">
 </head>
 <body>
-<table width="1300" border="0" cellpadding="20px" cellspacing="0">
-    <tr class="header-color-darkred">
-        <td colspan="2">
-            <img align="left" src="images/vetna.png" height="250"/>
-            <h1 align="center">ЗООМАГАЗИН</h1>
-            <h1 align="center">8(347) 253-33-33</h1>
-        </td>
-    </tr>
-    <tr>
-        <td class="column-left-color-darkred" valign="top" width="200">
-            <h2>Меню</h2>
-            <ul>
-                <li><a href="index.html">ГЛАВНАЯ</a></li>
-                <li><a href="about.html">ОПИСАНИЕ КОМПАНИИ</a></li>
-                <li><a href="friends.html">ДОМАШНИЙ ДРУГ</a></li>
-                <li><a href="order.html">ФОРМА ЗАКАЗА</a></li>
-                <li><a href="feedback.html">ОБРАТНАЯ СВЯЗЬ</a></li>
-                <li><a href="contacts.html">КОНТАКТЫ</a></li>
-            </ul>
-        </td>
-        <td class="basic-color-gray">
-            <div align="center">
-                <h1><font color="e2001a">Форма обратной связи</font></h1>
-                <form>
-                    <label>Ваше имя:</label><br/><br/>
-                    <input type="text" name="firstname" placeholder="Введите имя"/><br/><br/>
-                    <label>Ваша фамилия:</label><br/><br/>
-                    <input type="text" name="lastname" placeholder="Введите фамилию"/><br/><br/>
-                    <label> Ваш E-mail:</label><br/><br/>
-                    <input type="email" placeholder="Введите Email"><br/><br/>
-                    <label>Ваш номер телефона:</label><br/><br/>
-                    <input type="tel" name="phone" placeholder="Введите номер телефона"/><br/><br/>
-                    <label>Сообщение:</label><br/><br/>
-                    <textarea rows="5" placeholder="Введите интересующий Вас вопрос"></textarea><br/><br/>
-                    <input type="reset" value="Очистить"/><br/><br/>
-                    <input type="submit" value="Отправить">
-                </form>
-            </div>
-        </td>
-    </tr>
-    <tr class="footer-color-darkred">
-        <td align="center" height="150" colspan="2">
-            <p>8 (347) 253-33-33</p>
-            <p>vetna@mail.ru</p>
-            <p>Открыты для Вас каждый день с 10-00 до 22-00.</p>
-        </td>
-    </tr>
-</table>
+<div class="content">
+    <div class="header">
+        <img src="images/vetna_logo.png"/>
+    </div>
+    <div class="menu">
+        <a href="index.html">ГЛАВНАЯ</a>
+        <a href="about.html">ОПИСАНИЕ КОМПАНИИ</a>
+        <a href="friends.html">ДОМАШНИЙ ДРУГ</a>
+        <a href="order.html">ФОРМА ЗАКАЗА</a>
+        <a href="feedback.html">ОБРАТНАЯ СВЯЗЬ</a>
+        <a href="contacts.html">КОНТАКТЫ</a>
+    </div>
+    <div class="feedback_page_content">
+    <h2>Форма обратной связи</h2>
+    <div class="feedback_form">
+        <form>
+            <label>Ваше имя:</label><br/><br/>
+            <input type="text" name="firstname" placeholder="Введите имя"/><br/><br/>
+            <label>Ваша фамилия:</label><br/><br/>
+            <input type="text" name="lastname" placeholder="Введите фамилию"/><br/><br/>
+            <label> Ваш E-mail:</label><br/><br/>
+            <input type="email" placeholder="Введите Email"><br/><br/>
+            <label>Ваш номер телефона:</label><br/><br/>
+            <input type="tel" name="phone" placeholder="Введите номер телефона"/><br/><br/>
+            <label>Сообщение:</label><br/><br/>
+            <textarea rows="5" placeholder="Введите интересующий Вас вопрос"></textarea><br/><br/>
+            <input type="reset" value="Очистить"/><br/><br/>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+    </div>
+    <div class="footer">
+        <p>8 (347) 253-33-33</p>
+        <p>vetna@mail.ru</p>
+        <p>Открыты для Вас каждый день с 10-00 до 22-00.</p>
+    </div>
+</div>
 </body>
 </html>
