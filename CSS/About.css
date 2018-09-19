@@ -10,3 +10,8 @@ div.about_page_content div p {
     text-align: center;
     margin: 20px;
 }
+
+div.about_spisok {
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
