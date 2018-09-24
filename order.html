@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/order.css">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 <div class="content">
@@ -20,7 +21,11 @@
         <a href="contacts.html">КОНТАКТЫ</a>
     </div>
         <div class="order_page_content">
-            <h2>Форма заказа</h2>
+            <h2>
+                <script type="text/javascript">
+                    document.write(getSiteName());
+                </script>
+            </h2>
             <div class="order_form">
                 <form>
                     <label>Имя:</label><br/><br/>

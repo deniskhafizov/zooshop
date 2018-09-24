@@ -5,6 +5,7 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/feedback.css">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 <div class="content">
@@ -20,7 +21,11 @@
         <a href="contacts.html">КОНТАКТЫ</a>
     </div>
     <div class="feedback_page_content">
-    <h2>Форма обратной связи</h2>
+    <h2>
+        <script type="text/javascript">
+            document.write(getSiteName());
+        </script>
+    </h2>
     <div class="feedback_form">
         <form>
             <label>Ваше имя:</label><br/><br/>

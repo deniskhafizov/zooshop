@@ -5,6 +5,7 @@
     <title>Зоомагазин</title>
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 <div class="content">
@@ -20,7 +21,11 @@
         <a href="contacts.html">КОНТАКТЫ</a>
     </div>
     <div class="page-content">
-        <h2>Цены</h2>
+        <h2>
+            <script type="text/javascript">
+                document.write(getSiteName());
+            </script>
+        </h2>
         <div class="table">
             <table border="1" width="100%">
                 <tbody>
