@@ -28,4 +28,3 @@ function getMenu() {
     console.log (menu)
     return menu;
 }
-
